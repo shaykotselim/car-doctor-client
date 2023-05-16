@@ -18,6 +18,7 @@ const NavBar = () => {
     <li><Link to="/">Home</Link></li>
     <li><Link to="/about">About</Link></li>
     <li><Link to="/services">Services</Link></li>
+    <li><Link to="/services">Services</Link></li>
     {
       user?.email?<>
         <li onClick={handleLogOut}><Link> Sign-Out</Link></li>
